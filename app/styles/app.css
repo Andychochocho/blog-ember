@@ -1,0 +1,11 @@
+img{
+  width:300px;
+}
+ul{
+  margin-top: 5em;
+}
+
+.navbar{
+  position: fixed !important;
+  width: 100vw;
+}
