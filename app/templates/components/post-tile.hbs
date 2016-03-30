@@ -3,6 +3,7 @@
   <p>{{post.author}}</p>
   <p>{{post.date}}</p>
   <p>{{post.description}}</p>
+  {{update-post post=post update="update"}}
   <button {{action 'delete' post}}>Delete</button>
   <br><hr>
 </div>

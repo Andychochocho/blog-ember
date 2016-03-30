@@ -1,10 +1,11 @@
 <h1>Here is our blog</h1>
 <br>
 <h3>Enjoy, or not - whatever</h3>
+<hr>
 
 <div class="container">
   {{#each model as |post|}}
-    {{post-tile post=post destroyPost="destroyPost"}}
+    {{post-tile post=post update="update" destroyPost="destroyPost"}}
   {{/each}}
 </div>
 
