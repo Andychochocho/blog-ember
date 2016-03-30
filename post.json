@@ -1,0 +1,17 @@
+{ "posts": [{
+  "title": "Ember conference",
+  "author": "Andrew Cho",
+  "date": "December 20th, 1993",
+  "description": "I will create ember says developers"
+  }, {
+  "title": "New Iphone ember intergration",
+  "author": "Nathan Otto",
+  "date": "Janurary 1st, 2030",
+  "description": "Ember will make coffee from your iPhone"
+  }, {
+  "title": "Ember developer dies from ember",
+  "author": "Taylor whateverhislastnameis",
+  "date": "March 31st, 2016",
+  "description": "Eats physical ember data and dies"
+  }]
+}

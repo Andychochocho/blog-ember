@@ -1,3 +1,16 @@
 <h1>Here is our blog</h1>
 <br>
 <h3>Enjoy, or not - whatever</h3>
+
+<div class="container">
+  {{#each model as |post|}}
+    <div>
+      <h3>{{post.title}}</h3>
+      <p>{{post.author}}</p>
+      <p>{{post.date}}</p>
+      <p>{{post.description}}</p>
+    </div>
+  {{/each}}
+</div>
+
+{{new-post save2="save3"}}
